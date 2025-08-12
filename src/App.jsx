@@ -5,7 +5,8 @@ import mypic from "./assets/png/mypic.jpg"; // Replace with your actual image pa
 import PortImage from "./portimage"; // Import your portfolio image component
 import { FaLinkedin } from "react-icons/fa";
 import emailjs from "emailjs-com";
-import mypdf from "./assets/png/mypic.jpg"; // Path to your resume PDF
+import mypdf from "../public/resume.pdf"; // Path to your resume PDF
+import iot_mobile from "./assets/png/mobile_iot.png"; // Path to your mobile IoT image
 
 export default function App() {
   const [lang, setLang] = useState("en"); // ภาษาเริ่มต้นไทย
@@ -294,7 +295,7 @@ phone: 0638830905`,
                   onClick={() => {
                     const link = document.createElement("a");
                     link.href = {mypdf}; // พาธไฟล์เรซูเม่ใน public folder
-                    link.download = "Thammachat_Mingkhwan_Resume.jpg"; // ชื่อไฟล์เวลาดาวน์โหลด
+                    link.download = "Thammachat_Mingkhwan_Resume.pdf"; // ชื่อไฟล์เวลาดาวน์โหลด
                     document.body.appendChild(link);
                     link.click();
                     document.body.removeChild(link);
@@ -475,7 +476,7 @@ phone: 0638830905`,
           className="min-h-screen flex flex-col items-center justify-center bg-gray-50 dark:bg-gray-900"
         >
           <h2 className="text-4xl font-semibold mb-8">{t.portfolioContent}</h2>
-          <PortImage />
+          <img src={iot_mobile} alt="" />
         </section>
 
         <section
@@ -545,21 +546,7 @@ phone: 0638830905`,
                     placeholder="กรอกอีเมล"
                   />
                 </div>
-                {/* <div>
-                  <label className="block mb-1 text-sm font-medium">
-                    {t.catyegiry_doc}
-                  </label>
-                  <select
-                    name="document"
-                    value={formData.document}
-                    onChange={handleChange}
-                    className="w-full border rounded-lg p-2 focus:ring-2 focus:ring-teal-500 dark:bg-gray-700 dark:border-gray-600"
-                  >
-                    <option>{t.op_all}</option>
-                    <option>{t.op_thai}</option>
-                    <option>{t.op_eng}</option>
-                  </select>
-                </div> */}
+               
                 <button
                   type="submit"
                   disabled={sending}

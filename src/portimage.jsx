@@ -4,7 +4,7 @@ import {
   IoCaretForwardCircleOutline,
 } from "react-icons/io5";
 
-import mobile_iot from "https://khaenslopy.github.io/my-profile/assets/mobile_iot.png";
+import mobile_iot from "./assets/png/mypic.jpg";
 // import sensor_iot from "../dist/assets/system_iot-D3TsJOBn.png";   
 import system_iot from "./assets/png/system_iot.png";
 import web from "./assets/png/web.png";
@@ -17,7 +17,7 @@ const items = [
     id: 1,
     title: "Website - Senior Project",
     category: "web",
-    img: "/assets/web_senoirproject.png",
+    img: "../public/assets/web_senoirproject.png",
     // img:{web_senoirproject}
   },
   {
