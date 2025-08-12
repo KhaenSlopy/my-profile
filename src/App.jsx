@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import content from "./langContent"; // Assuming you have a content.json file for translations
 import { MdOutlineFileDownload } from "react-icons/md";
 import mypic from "./assets/png/mypic.jpg"; // Replace with your actual image path
-import PortImage from "./portimage"; // Import your portfolio image component
+// import PortImage from "./portimage"; // Import your portfolio image component
 import { FaLinkedin } from "react-icons/fa";
 import emailjs from "emailjs-com";
 import mypdf from "../public/resume.pdf"; // Path to your resume PDF
