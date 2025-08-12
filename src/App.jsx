@@ -5,7 +5,7 @@ import mypic from "./assets/png/mypic.jpg"; // Replace with your actual image pa
 import PortImage from "./portimage"; // Import your portfolio image component
 import { FaLinkedin } from "react-icons/fa";
 import emailjs from "emailjs-com";
-import mypdf from "./assets/pdf/resume.pdf"; // Path to your resume PDF
+import mypdf from "../dist/doc/resume.pdf"; // Path to your resume PDF
 
 export default function App() {
   const [lang, setLang] = useState("en"); // ภาษาเริ่มต้นไทย

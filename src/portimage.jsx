@@ -4,8 +4,8 @@ import {
   IoCaretForwardCircleOutline,
 } from "react-icons/io5";
 
-import mobile_iot from "./assets/png/mobile_iot.png";
-import sensor_iot from "./assets/png/sensor_iot.png";   
+import mobile_iot from "../public/assets/mobile_iot.png";
+import sensor_iot from "../dist/assets/system_iot-D3TsJOBn.png";   
 import system_iot from "./assets/png/system_iot.png";
 import web from "./assets/png/web.png";
 import web_senoirproject from "./assets/png/web_senoirproject.png";
