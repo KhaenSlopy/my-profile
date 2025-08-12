@@ -4,48 +4,56 @@ import {
   IoCaretForwardCircleOutline,
 } from "react-icons/io5";
 
+import mobile_iot from "./assets/png/mobile_iot.png";
+import sensor_iot from "./assets/png/sensor_iot.png";   
+import system_iot from "./assets/png/system_iot.png";
+import web from "./assets/png/web.png";
+import web_senoirproject from "./assets/png/web_senoirproject.png";
+import poerfolio from "./assets/png/poerfolio.png";
+
+
 const items = [
   {
     id: 1,
     title: "Website - Senior Project",
     category: "web",
     // img: "../public/assets/web_senoirproject.png",
-    img:"./assets/png/web_senoirproject.png"
+    img:{web_senoirproject}
   },
   {
     id: 2,
     title: "Dashborad Sensor IOT (Mobile)",
     category: "mobile",
     // img: "../public/assets/mobile_iot.png",
-    img: "./assets/png/mobile_iot.png",
+    img: {mobile_iot},
   },
   {
     id: 3,
     title: "IOT SmartFarm",
     category: "iot",
     // img: "../public/assets/system_iot.png",
-    img: "./assets/png/system_iot.png",
+    img: {system_iot},
   },
   {
     id: 4,
     title: "Web Temp Slopy",
     category: "web",
     // img: "../public/assets/web.png",
-    img: "./assets/png/web.png",
+    img: {web},
   },
   {
     id: 5,
     title: "Sensor IoT SmartFarm",
     category: "iot",
     // img: "../public/assets/sensor_iot.png",
-    img: "./assets/png/sensor_iot.png",
+    img: {sensor_iot},
   },
   {
     id: 6,
     title: "Training",
     category: "iot",
     // img: "../public/assets/poerfolio.png",
-    img: "./assets/png/poerfolio.png",
+    img: {poerfolio},
   },
 ];
 
