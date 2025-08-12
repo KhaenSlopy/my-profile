@@ -5,7 +5,7 @@ import mypic from "./assets/png/mypic.jpg"; // Replace with your actual image pa
 import PortImage from "./portimage"; // Import your portfolio image component
 import { FaLinkedin } from "react-icons/fa";
 import emailjs from "emailjs-com";
-import mypdf from "https://khaenslopy.github.io/my-profile/resume.pdf"; // Path to your resume PDF
+import mypdf from "./assets/png/mypic.jpg"; // Path to your resume PDF
 
 export default function App() {
   const [lang, setLang] = useState("en"); // ภาษาเริ่มต้นไทย
@@ -294,7 +294,7 @@ phone: 0638830905`,
                   onClick={() => {
                     const link = document.createElement("a");
                     link.href = {mypdf}; // พาธไฟล์เรซูเม่ใน public folder
-                    link.download = "Thammachat_Mingkhwan_Resume.pdf"; // ชื่อไฟล์เวลาดาวน์โหลด
+                    link.download = "Thammachat_Mingkhwan_Resume.jpg"; // ชื่อไฟล์เวลาดาวน์โหลด
                     document.body.appendChild(link);
                     link.click();
                     document.body.removeChild(link);
