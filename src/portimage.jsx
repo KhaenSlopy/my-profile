@@ -5,10 +5,10 @@ import {
 } from "react-icons/io5";
 
 import mobile_iot from "../public/assets/mobile_iot.png";
-import sensor_iot from "../dist/assets/system_iot-D3TsJOBn.png";   
+// import sensor_iot from "../dist/assets/system_iot-D3TsJOBn.png";   
 import system_iot from "./assets/png/system_iot.png";
 import web from "./assets/png/web.png";
-import web_senoirproject from "./assets/png/web_senoirproject.png";
+// import web_senoirproject from "./assets/png/web_senoirproject.png";
 import poerfolio from "./assets/png/poerfolio.png";
 
 
@@ -17,8 +17,8 @@ const items = [
     id: 1,
     title: "Website - Senior Project",
     category: "web",
-    // img: "../public/assets/web_senoirproject.png",
-    img:{web_senoirproject}
+    img: "../public/assets/web_senoirproject.png",
+    // img:{web_senoirproject}
   },
   {
     id: 2,
@@ -45,8 +45,8 @@ const items = [
     id: 5,
     title: "Sensor IoT SmartFarm",
     category: "iot",
-    // img: "../public/assets/sensor_iot.png",
-    img: {sensor_iot},
+    img: "../dist/assets/system_iot-D3TsJOBn.png",
+    // img: {sensor_iot},
   },
   {
     id: 6,
