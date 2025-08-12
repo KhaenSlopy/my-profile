@@ -9,7 +9,7 @@ import mypic from "./assets/png/mypic.jpg"; // Replace with your actual image pa
 // import PortImage from "./portimage"; // Import your portfolio image component
 import { FaLinkedin } from "react-icons/fa";
 import emailjs from "emailjs-com";
-import mypdf from "/my-profile/resume.pdf"; // Path to your resume PDF
+// import mypdf from "/my-profile/resume.pdf"; // Path to your resume PDF
 
 // import mobile_iot from "./assets/png/mypic.jpg";
 // import sensor_iot from "./assets/png/mypic.jpg";
@@ -391,7 +391,7 @@ phone: 0638830905`,
                 <button
                   onClick={() => {
                     const link = document.createElement("a");
-                    link.href = { mypdf }; // พาธไฟล์เรซูเม่ใน public folder
+                    link.href = "/my-profile/resume.pdf"; // พาธไฟล์เรซูเม่ใน public folder
                     link.download = "Thammachat_Mingkhwan_Resume.pdf"; // ชื่อไฟล์เวลาดาวน์โหลด
                     document.body.appendChild(link);
                     link.click();
